@@ -1,0 +1,28 @@
+# .gitignore
+
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Flask-specific
+instance/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db

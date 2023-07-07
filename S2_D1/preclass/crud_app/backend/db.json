@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "name": "Hariom Singh",
+            "email": "harion@gmail.com",
+            "course": "Civil Services",
+            "age": 28,
+            "id": "1688664416236"
+        },
+        {
+            "name": "Mayank Singh",
+            "email": "mayank@gmail.com",
+            "age": "27",
+            "course": "Web Deverlopment",
+            "id": "1688702198106"
+        },
+        {
+            "name": "Piyush",
+            "email": "piyush@gmail.com",
+            "age": "25",
+            "course": "GATE",
+            "id": "1688702462567"
+        }
+    ]
+}
