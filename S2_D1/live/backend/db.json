@@ -1,0 +1,176 @@
+{
+    "dishes": [
+        {
+            "name": "Daal",
+            "price": "45",
+            "availability": "Yes",
+            "id": "1688888103933"
+        },
+        {
+            "name": "Rice",
+            "price": 30,
+            "availability": "Yes",
+            "id": "1688888118324"
+        },
+        {
+            "name": "Dosa",
+            "price": 50,
+            "availability": "Yes",
+            "id": "1688888133750"
+        },
+        {
+            "name": "Idli",
+            "price": 10,
+            "availability": "Yes",
+            "id": "1688888147334"
+        },
+        {
+            "name": "Sambhar",
+            "price": 20,
+            "availability": "Yes",
+            "id": "1688888160934"
+        },
+        {
+            "name": "Gobhi Paratha",
+            "price": "40",
+            "availability": "Yes",
+            "id": "1688888190547"
+        },
+        {
+            "name": "Paneer Paratha",
+            "price": 30,
+            "availability": "Yes",
+            "id": "1688888200417"
+        },
+        {
+            "name": "Chapati",
+            "price": 5,
+            "availability": "Yes",
+            "id": "1688888227860"
+        },
+        {
+            "name": "Chicken Biryani",
+            "price": "90",
+            "availability": "Yes",
+            "id": "1688888264575"
+        }
+    ],
+    "orders": [
+        {
+            "customerName": "Mayank Singh",
+            "orderedItems": [
+                {
+                    "name": "Daal",
+                    "price": 50,
+                    "id": "1688888103933",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Rice",
+                    "price": 30,
+                    "id": "1688888118324",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Dosa",
+                    "price": 50,
+                    "id": "1688888133750",
+                    "availability": "Yes"
+                }
+            ],
+            "totalPrice": 130,
+            "status": "prepairing",
+            "id": "1688908140391"
+        },
+        {
+            "customerName": "Navin Singh",
+            "orderedItems": [
+                {
+                    "name": "Daal",
+                    "price": 50,
+                    "id": "1688888103933",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Rice",
+                    "price": 30,
+                    "id": "1688888118324",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Dosa",
+                    "price": 50,
+                    "id": "1688888133750",
+                    "availability": "Yes"
+                }
+            ],
+            "totalPrice": 130,
+            "status": "prepairing",
+            "id": "1688908289364"
+        },
+        {
+            "customerName": "Priyanshu",
+            "orderedItems": [
+                {
+                    "name": "Sambhar",
+                    "price": 20,
+                    "id": "1688888160934",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Dosa",
+                    "price": 50,
+                    "id": "1688888133750",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Rice",
+                    "price": 30,
+                    "id": "1688888118324",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Gobhi Paratha",
+                    "price": "40",
+                    "id": "1688888190547",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Paneer Paratha",
+                    "price": 30,
+                    "id": "1688888200417",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Chicken Biryani",
+                    "price": "90",
+                    "id": "1688888264575",
+                    "availability": "Yes"
+                }
+            ],
+            "totalPrice": 260,
+            "status": "prepairing",
+            "id": "1688909256441"
+        },
+        {
+            "customerName": "Hariom",
+            "orderedItems": [
+                {
+                    "name": "Sambhar",
+                    "price": 20,
+                    "id": "1688888160934",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Gobhi Paratha",
+                    "price": "40",
+                    "id": "1688888190547",
+                    "availability": "Yes"
+                }
+            ],
+            "totalPrice": 60,
+            "status": "prepairing",
+            "id": "1688931935720"
+        }
+    ]
+}

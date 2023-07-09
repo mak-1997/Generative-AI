@@ -4,7 +4,7 @@
             "name": "Hariom Singh",
             "email": "harion@gmail.com",
             "course": "Civil Services",
-            "age": 28,
+            "age": "29",
             "id": "1688664416236"
         },
         {
@@ -17,9 +17,9 @@
         {
             "name": "Piyush",
             "email": "piyush@gmail.com",
-            "age": "25",
-            "course": "GATE",
-            "id": "1688702462567"
+            "age": "30",
+            "course": "web",
+            "id": "1688704959559"
         }
     ]
 }
