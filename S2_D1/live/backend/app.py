@@ -70,7 +70,7 @@ def add_orders():
         new_order = request.get_json()
         # if new_order["availability"] == "No" :
         #     return jsonify({"msg" :"Dish is not available right now"}), 400
-        new_order["status"] = "prepairing"
+        new_order["status"] = "Order Recieved"
         add_new_order(new_order)
         data = get_data("orders")
         return data

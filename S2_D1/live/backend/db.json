@@ -8,15 +8,9 @@
         },
         {
             "name": "Rice",
-            "price": 30,
+            "price": "40",
             "availability": "Yes",
             "id": "1688888118324"
-        },
-        {
-            "name": "Dosa",
-            "price": 50,
-            "availability": "Yes",
-            "id": "1688888133750"
         },
         {
             "name": "Idli",
@@ -29,12 +23,6 @@
             "price": 20,
             "availability": "Yes",
             "id": "1688888160934"
-        },
-        {
-            "name": "Gobhi Paratha",
-            "price": "40",
-            "availability": "Yes",
-            "id": "1688888190547"
         },
         {
             "name": "Paneer Paratha",
@@ -53,6 +41,18 @@
             "price": "90",
             "availability": "Yes",
             "id": "1688888264575"
+        },
+        {
+            "name": "Dosa",
+            "price": "20",
+            "availability": "Yes",
+            "id": "1688934738545"
+        },
+        {
+            "name": "Aloo Paratha",
+            "price": "30",
+            "availability": "Yes",
+            "id": "1688936639919"
         }
     ],
     "orders": [
@@ -60,96 +60,96 @@
             "customerName": "Mayank Singh",
             "orderedItems": [
                 {
-                    "name": "Daal",
-                    "price": 50,
+                    "availability": "Yes",
                     "id": "1688888103933",
-                    "availability": "Yes"
+                    "name": "Daal",
+                    "price": 50
                 },
                 {
-                    "name": "Rice",
-                    "price": 30,
+                    "availability": "Yes",
                     "id": "1688888118324",
-                    "availability": "Yes"
+                    "name": "Rice",
+                    "price": 30
                 },
                 {
-                    "name": "Dosa",
-                    "price": 50,
+                    "availability": "Yes",
                     "id": "1688888133750",
-                    "availability": "Yes"
+                    "name": "Dosa",
+                    "price": 50
                 }
             ],
             "totalPrice": 130,
-            "status": "prepairing",
+            "status": "Ready for pickup",
             "id": "1688908140391"
         },
         {
             "customerName": "Navin Singh",
             "orderedItems": [
                 {
-                    "name": "Daal",
-                    "price": 50,
+                    "availability": "Yes",
                     "id": "1688888103933",
-                    "availability": "Yes"
+                    "name": "Daal",
+                    "price": 50
                 },
                 {
-                    "name": "Rice",
-                    "price": 30,
+                    "availability": "Yes",
                     "id": "1688888118324",
-                    "availability": "Yes"
+                    "name": "Rice",
+                    "price": 30
                 },
                 {
-                    "name": "Dosa",
-                    "price": 50,
+                    "availability": "Yes",
                     "id": "1688888133750",
-                    "availability": "Yes"
+                    "name": "Dosa",
+                    "price": 50
                 }
             ],
             "totalPrice": 130,
-            "status": "prepairing",
+            "status": "Delivered",
             "id": "1688908289364"
         },
         {
             "customerName": "Priyanshu",
             "orderedItems": [
                 {
-                    "name": "Sambhar",
-                    "price": 20,
+                    "availability": "Yes",
                     "id": "1688888160934",
-                    "availability": "Yes"
+                    "name": "Sambhar",
+                    "price": 20
                 },
                 {
-                    "name": "Dosa",
-                    "price": 50,
+                    "availability": "Yes",
                     "id": "1688888133750",
-                    "availability": "Yes"
+                    "name": "Dosa",
+                    "price": 50
                 },
                 {
-                    "name": "Rice",
-                    "price": 30,
+                    "availability": "Yes",
                     "id": "1688888118324",
-                    "availability": "Yes"
+                    "name": "Rice",
+                    "price": 30
                 },
                 {
-                    "name": "Gobhi Paratha",
-                    "price": "40",
+                    "availability": "Yes",
                     "id": "1688888190547",
-                    "availability": "Yes"
+                    "name": "Gobhi Paratha",
+                    "price": "40"
                 },
                 {
-                    "name": "Paneer Paratha",
-                    "price": 30,
+                    "availability": "Yes",
                     "id": "1688888200417",
-                    "availability": "Yes"
+                    "name": "Paneer Paratha",
+                    "price": 30
                 },
                 {
-                    "name": "Chicken Biryani",
-                    "price": "90",
+                    "availability": "Yes",
                     "id": "1688888264575",
-                    "availability": "Yes"
+                    "name": "Chicken Biryani",
+                    "price": "90"
                 }
             ],
             "totalPrice": 260,
-            "status": "prepairing",
+            "status": "Ready for pickup",
             "id": "1688909256441"
         },
         {
@@ -169,8 +169,54 @@
                 }
             ],
             "totalPrice": 60,
-            "status": "prepairing",
+            "status": "Prepairing",
             "id": "1688931935720"
+        },
+        {
+            "customerName": "shubham",
+            "orderedItems": [
+                {
+                    "name": "Daal",
+                    "price": "45",
+                    "id": "1688888103933",
+                    "availability": "Yes"
+                },
+                {
+                    "name": "Dosa",
+                    "price": 50,
+                    "id": "1688888133750",
+                    "availability": "Yes"
+                }
+            ],
+            "totalPrice": 95,
+            "status": "Prepairing",
+            "id": "1688933049769"
+        },
+        {
+            "customerName": "Akash",
+            "orderedItems": [
+                {
+                    "availability": "Yes",
+                    "id": "1688888103933",
+                    "name": "Daal",
+                    "price": "45"
+                },
+                {
+                    "availability": "Yes",
+                    "id": "1688888200417",
+                    "name": "Paneer Paratha",
+                    "price": 30
+                },
+                {
+                    "availability": "Yes",
+                    "id": "1688888160934",
+                    "name": "Sambhar",
+                    "price": 20
+                }
+            ],
+            "totalPrice": 95,
+            "status": "Prepairing",
+            "id": "1688936574828"
         }
     ]
 }

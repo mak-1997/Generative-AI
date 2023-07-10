@@ -18,6 +18,7 @@ import {
   TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
+import AddNewDishModal from "../components/AddNewDishModal";
 
 const Dishes = () => {
   // Display all dishes
@@ -59,9 +60,9 @@ const Dishes = () => {
       );
       console.log(res.data);
       alert("order placed.");
-      setOrderedDishes([])
-      setCustomerName("")
-      setTotalPrice(0)
+      setOrderedDishes([]);
+      setCustomerName("");
+      setTotalPrice(0);
     } catch (error) {
       console.log(error);
     }
@@ -94,26 +95,32 @@ const Dishes = () => {
       maxW={"100%"}
       justifyContent={"space-between"}
     >
-      <Box
-        width={"70%"}
-        display={"grid"}
-        gridTemplateColumns={"repeat(3, 1fr)"}
-        columnGap={"5"}
-        padding={"10px"}
+      <Box 
+       width={"70%"}
+       paddingTop={"1rem"}
       >
-        {dishes?.map((elem) => {
-          return (
-            <Card
-              setDishes={setDishes}
-              name={elem.name}
-              price={elem.price}
-              availability={elem.availability}
-              key={elem.id}
-              id={elem.id}
-              setOrderedDishes={setOrderedDishes}
-            />
-          );
-        })}
+        <AddNewDishModal setDishes={setDishes}  />
+        <Box
+         
+          display={"grid"}
+          gridTemplateColumns={"repeat(3, 1fr)"}
+          columnGap={"5"}
+          padding={"10px"}
+        >
+          {dishes?.map((elem) => {
+            return (
+              <Card
+                setDishes={setDishes}
+                name={elem.name}
+                price={elem.price}
+                availability={elem.availability}
+                key={elem.id}
+                id={elem.id}
+                setOrderedDishes={setOrderedDishes}
+              />
+            );
+          })}
+        </Box>
       </Box>
       <Box
         // w="25%"
