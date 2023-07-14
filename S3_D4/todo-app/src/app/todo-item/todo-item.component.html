@@ -1,0 +1,16 @@
+<div
+  style="
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    text-align: center;
+  "
+>
+  <h3>{{ todo.title }}</h3>
+  <p>{{ todo.description }}</p>
+  <p>Completed: {{ todo.completed ? "Yes" : "No" }}</p>
+  <button (click)="toggleCompleted()">
+    {{ todo.completed ? "Mark Incomplete" : "Mark Complete" }}
+  </button>
+  <button (click)="deleteTodo()">Delete</button>
+</div>
